@@ -33,3 +33,31 @@ h1 {
     padding-right: 10%;
     padding-top: 20%;
 }
+
+/* middle section css */
+ul {
+    list-style: none;
+}
+
+.fa-solid {
+    color: blue;
+}
+
+
+.middile-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.half-width {
+    width: 40%;
+}
+
+h2 {
+    font-size: 40px;
+    width: 700;
+}
