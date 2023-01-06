@@ -61,3 +61,17 @@ h2 {
     font-size: 40px;
     width: 700;
 }
+
+/* icon section start */
+.icon-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
