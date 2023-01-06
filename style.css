@@ -10,6 +10,61 @@ h1 {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+/* navbar css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 34, 145);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.name {
+    color: white;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.search-input {
+    border: solid white;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #121212;
+    width: 350px;
+    background: white;
+}
+
+.search-button {
+    text-align: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    top: 0;
+    padding: 4px 10px;
+    position: relative;
+    right: 5px;
+}
+
+.searching {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 0 5px 5px 0;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /* header section css */
@@ -44,7 +99,7 @@ ul {
     list-style: none;
 }
 
-.fa-solid {
+.fa-check {
     color: blue;
 }
 
@@ -139,5 +194,3 @@ h2 {
     width: 350px;
     background: #D9D9D9;
 }
-
-.subscribe {}
