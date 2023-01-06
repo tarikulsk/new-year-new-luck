@@ -40,7 +40,7 @@ a {
     background: white;
 }
 
-.search-button {
+/* .search-button {
     text-align: center;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -50,7 +50,7 @@ a {
     padding: 4px 10px;
     position: relative;
     right: 5px;
-}
+} */
 
 .searching {
     padding-top: 25px;
