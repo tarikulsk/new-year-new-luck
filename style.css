@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* header section css */
+.header-bg-img {
+    background-image: url(images/banner/banner3.png);
+    height: 800px;
+    width: 100%;
+    text-align: right;
+
+
+}
+
+.header-btn {
+    border: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 900;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.header-text {
+    color: white;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 20%;
+}
